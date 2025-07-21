@@ -1,0 +1,312 @@
+[
+  {
+    "id": "silenvia-ai-therapy",
+    "title": "Silenvia - AI Therapy Companion",
+    "description": "A culturally-aware AI therapy companion offering personalized mental health support across diverse cultural backgrounds with blockchain-powered privacy.",
+    "fullDescription": "Silenvia revolutionizes mental health care by providing culturally-sensitive AI therapy that adapts to users' cultural backgrounds. The platform offers complete UI transformation, therapeutic approaches, and recommendations based on African, Western, Middle Eastern, and Asian cultural contexts.\n\nFeaturing dual AI therapy modes with text-based sessions powered by Gemini AI and video-based interactions using Tavus personas, Silenvia ensures privacy through Algorand blockchain integration for anonymous mood tracking. The platform includes comprehensive mood analytics, gamification elements, and multilingual support with culturally appropriate translations.",
+    "image": "Silenvia-cover-dark.png",
+    "coverImages": {
+      "dark": "Silenvia-cover-dark.png",
+      "light": "Silenvia-cover-light.png"
+    },
+    "gallery": [
+      "Silenvia-Dark-2.png",
+      "Silenvia-Dark-3.png",
+      "Silenvia-Dark-4.png",
+      "Silenvia-Dark-5.png",
+      "Silenvia-light-1.png",
+      "Silenvia-light-2.png",
+      "Silenvia-light-3.png",
+      "Silenvia-light-4.png",
+      "Silenvia-light-5.png"
+    ],
+    "tags": [
+      "AI",
+      "Healthcare",
+      "Mental Health",
+      "Blockchain",
+      "Cultural Adaptation",
+      "React"
+    ],
+    "liveUrl": "https://silenvia.netlify.app",
+    "githubUrl": "https://github.com/yourusername/silenvia-ai-therapy",
+    "problem": "Traditional mental health apps lack cultural sensitivity and adaptation. Different cultures have varying approaches to emotional expression, help-seeking behavior, and therapeutic preferences, creating barriers for users from diverse backgrounds seeking mental health support.",
+    "solution": "Silenvia provides culturally-aware AI therapy that completely transforms its interface, therapeutic approaches, and recommendations based on the user's cultural background. The platform uses advanced AI for personalized therapy while maintaining privacy through blockchain integration and offers comprehensive mood tracking with culturally-relevant emotional expressions.",
+    "duration": "Hackathon Project (Built in 15 days)",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Supabase",
+      "Google Gemini AI",
+      "Tavus API",
+      "Algorand Blockchain",
+      "ElevenLabs",
+      "Netlify",
+      "Tailwind CSS"
+    ],
+    "features": [
+      "Cultural adaptation system (4 cultural backgrounds)",
+      "Dual AI therapy modes (text + video personas)",
+      "Anonymous mood tracking via blockchain",
+      "5-tier mood check-in system",
+      "Personalized AI therapist recommendations",
+      "Mood analytics and emotional heatmaps",
+      "Gamification with streaks and milestones",
+      "Multilingual guided meditation exercises",
+      "Progress tracking and insights",
+      "Cultural-specific UI transformations"
+    ]
+  },
+  {
+    "id": "salone-haven-real-estate",
+    "title": "Salone Haven - Real Estate Platform",
+    "description": "A comprehensive real estate platform for Sierra Leone, connecting buyers, sellers, and agents with advanced search capabilities and interactive mapping.",
+    "fullDescription": "Salone Haven addresses the Sierra Leone real estate market's need for a modern, reliable platform. The application centralizes property listings that were previously scattered across social media and word-of-mouth networks, providing advanced search capabilities and professional transaction management.\n\nThe platform features Google Maps integration for location-based searches, virtual property tours, mortgage calculators, and secure document management. It's optimized for the local market with support for local currencies, payment methods, and multiple languages to serve both local and international users interested in Sierra Leone real estate.",
+    "image": "Salone-haven-cover.png",
+    "coverImages": {
+      "dark": "Salone-haven-cover-dark.png",
+      "light": "Salone-haven-cover-light.png"
+    },
+    "gallery": [
+      "Salone-Haven-2.png",
+      "Salone-Haven-3.png",
+      "Salone-Haven-4.png",
+      "Salone-Haven-555555.png",
+      "Salone-Haven-6.png"
+    ],
+    "tags": [
+      "Real Estate",
+      "Next.js",
+      "Maps",
+      "PostgreSQL",
+      "Supabase",
+      "Local Market"
+    ],
+    "liveUrl": "https://salone-haven.vercel.app",
+    "githubUrl": "https://github.com/yourusername/salone-haven-real-estate",
+    "problem": "Sierra Leone's real estate market lacked a centralized, professional platform for property transactions. Most listings were scattered across social media platforms or shared through word-of-mouth, making it difficult for buyers to discover properties and for sellers to reach potential customers effectively.",
+    "solution": "Salone Haven provides a comprehensive real estate platform with advanced search and filtering, interactive Google Maps integration, virtual tours, and secure transaction management. The platform is specifically optimized for the Sierra Leone market with local payment integration and multi-language support.",
+    "duration": "3 months",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Supabase",
+      "PostgreSQL",
+      "Google Maps API",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "React Hook Form",
+      "Framer Motion"
+    ],
+    "features": [
+      "Advanced property search with keyword and location filters",
+      "Interactive Google Maps with property markers",
+      "Map-based search with radius selection",
+      "Property image galleries and virtual tours",
+      "Mortgage calculator and financial tools",
+      "Agent and buyer dashboard systems",
+      "Secure document management",
+      "Favorites system and property sharing",
+      "Multi-language support",
+      "Local payment method integration",
+      "Admin dashboard for property management",
+      "Inquiry management system"
+    ]
+  },
+  {
+    "id": "sibling-craft-freelance",
+    "title": "SiblingCraft - Multi-Service Client Platform",
+    "description": "A comprehensive client service platform managing projects, payments, AI-assisted interactions, and file sharing with MTN Mobile Money integration.",
+    "fullDescription": "SiblingCraft is a full-stack platform designed to streamline the relationship between service providers and clients. It offers project management with milestone tracking, secure file sharing, AI-assisted messaging, and integrated payment processing through MTN Mobile Money.\n\nThe platform features a project wizard for step-by-step service creation, milestone-based delivery tracking, and a credit-based AI assistant system. With role-based dashboards for both clients and administrators, SiblingCraft provides comprehensive oversight tools for every stage of service delivery while maintaining security through Supabase Row Level Security policies.",
+    "image": "siblingcraft-cover.png",
+    "coverImages": {
+      "dark": "siblingcraft-cover.png",
+      "light": "siblingcraft-cover.png"
+    },
+    "gallery": [
+      "Siblingcraft-2.png",
+      "Siblingcraft-3.png",
+      "Siblingcraft-4.png",
+      "Siblingcraft-5.png",
+      "Siblingcraft-6.png",
+      "Siblingcraft-7.png",
+      "Siblingcraft-8.png",
+      "Siblingcraft-9.png",
+      "Siblingcraft-10.png",
+      "Siblingcraft-11.png"
+    ],
+    "tags": [
+      "Client Management",
+      "Project Management",
+      "AI Assistant",
+      "Mobile Payments",
+      "React"
+    ],
+    "liveUrl": "https://sibling-craft.vercel.app",
+    "githubUrl": "https://github.com/yourusername/sibling-craft-freelance",
+    "problem": "Service providers and clients lacked a unified platform to manage projects, communications, payments, and file sharing. The fragmented workflow across multiple tools led to inefficiencies and poor client experience, especially in regions where mobile money is the primary payment method.",
+    "solution": "SiblingCraft provides an all-in-one platform with project wizards, milestone tracking, AI-assisted communication, secure file sharing, and MTN Mobile Money integration. The platform features role-based dashboards and comprehensive admin oversight tools to streamline the entire service delivery process.",
+    "duration": "5 months",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Supabase",
+      "PostgreSQL",
+      "MTN Mobile Money API",
+      "AI Assistant Integration",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Row Level Security"
+    ],
+    "features": [
+      "Step-by-step project creation wizard",
+      "Milestone-based project tracking",
+      "Secure file upload and sharing system",
+      "AI Assistant with credit-based usage",
+      "MTN Mobile Money payment integration",
+      "Real-time messaging and notifications",
+      "Guest trial system with credit rewards",
+      "Comprehensive admin dashboard",
+      "Role-based access control",
+      "Invoice generation and management",
+      "Project reports and analytics",
+      "Settings and profile management"
+    ]
+  },
+  {
+    "id": "servicehub-ai-freelance",
+    "title": "ServiceHub AI - Freelance Marketplace",
+    "description": "An AI-enhanced service marketplace connecting clients with verified providers across Africa, featuring skills verification and comprehensive training platform.",
+    "fullDescription": "ServiceHub AI is a comprehensive service marketplace platform that connects clients with verified service providers across Africa. The platform goes beyond traditional freelancing by incorporating skills verification systems, comprehensive training platforms, and AI-enhanced matching capabilities.\n\nFeaturing separate dashboards for clients and providers, the platform includes real-time messaging, secure payment processing, skills assessment with badge certifications, and a YouTube-integrated training system. Built as a Progressive Web App with offline capabilities, ServiceHub AI offers a complete ecosystem for service discovery, booking, and delivery with robust analytics and review systems.",
+    "image": "Servicehub-cover-dark.png",
+    "coverImages": {
+      "dark": "Servicehub-cover-dark.png",
+      "light": "Servicehub-cover-light.png"
+    },
+    "gallery": [
+      "Servicehub-dark-2.png",
+      "Servicehub-dark-3.png",
+      "Servicehub-dark-4.png",
+      "Servicehub-dark-5.png",
+      "Servicehub-dark-6.png",
+      "Servicehub-light-1.png",
+      "Servicehub-light-2.png",
+      "Servicehub-light-3.png",
+      "Servicehub-light-4.png",
+      "Servicehub-light-5.png",
+      "Servicehub-light-6.png",
+      "Servicehub-light-7.png",
+      "Servicehub-light-8.png"
+    ],
+    "tags": [
+      "Marketplace",
+      "AI Enhancement",
+      "Skills Verification",
+      "Training Platform",
+      "PWA"
+    ],
+    "liveUrl": "https://servicehub-ai.vercel.app",
+    "githubUrl": "https://github.com/yourusername/servicehub-ai-freelance",
+    "problem": "Traditional freelance platforms lack proper skills verification and training systems, leading to quality inconsistencies and poor client-provider matches. Service providers, especially in Africa, need accessible skill development opportunities and verified credential systems to build trust with clients.",
+    "solution": "ServiceHub AI provides a comprehensive marketplace with integrated skills assessment, badge certifications, and YouTube-based training platform. The AI-enhanced matching system connects clients with verified providers while offering continuous skill development opportunities and comprehensive project management tools.",
+    "duration": "6 months",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Supabase",
+      "PostgreSQL",
+      "Zustand",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "YouTube API",
+      "Stripe Integration",
+      "PWA",
+      "Recharts"
+    ],
+    "features": [
+      "Dual-role authentication (clients & providers)",
+      "Skills verification with assessment system",
+      "Badge and certification management",
+      "YouTube-integrated training platform",
+      "AI-enhanced service discovery",
+      "Real-time messaging and notifications",
+      "Comprehensive booking management",
+      "Secure payment processing (Stripe ready)",
+      "Review and rating system",
+      "Progressive Web App capabilities",
+      "Analytics dashboards for both roles",
+      "Multi-language support structure",
+      "Dark/light mode themes",
+      "Offline functionality"
+    ]
+  },
+  {
+    "id": "libfling-escort-platform",
+    "title": "LIBFling - Professional Companionship Platform",
+    "description": "A secure, professional platform for adult companionship services with industry-leading safety features, verification systems, and privacy protection.",
+    "fullDescription": "LIBFling addresses the need for a professional, secure platform in the adult companionship industry. The platform prioritizes safety, privacy, and professionalism through comprehensive identity verification, advanced privacy controls, and robust safety reporting systems.\n\nBuilt with industry-leading security measures, the platform features end-to-end encrypted communications, professional profile management, secure payment processing, and strict regulatory compliance tools. All interactions are encrypted and the platform maintains the highest standards of user safety and discretion while providing a professional service experience.",
+    "image": "Libfling-cover-dark.png",
+    "coverImages": {
+      "dark": "Libfling-cover-dark.png",
+      "light": "Libfling-cover-light.png"
+    },
+    "gallery": [
+      "libfling-dark-2.png",
+      "libfling-dark-3.png",
+      "libfling-dark-4.png",
+      "libfling-dark-5.png",
+      "libfling-dark-6.png",
+      "libfling-dark-7.png",
+      "libfling-dark-8.png",
+      "libfling-dark-9.png",
+      "libfling-light-1.png",
+      "libfling-light-2.png",
+      "libfling-light-3.png",
+      "libfling-light-4.png",
+      "libfling-light-5.png",
+      "libfling-light-6.png",
+      "libfling-light-7.png",
+      "libfling-light-8.png"
+    ],
+    "tags": [
+      "Professional Services",
+      "Security",
+      "Privacy",
+      "Verification",
+      "Compliance"
+    ],
+    "liveUrl": "https://libfling-platform.vercel.app",
+    "githubUrl": "https://github.com/yourusername/libfling-escort-platform",
+    "problem": "The adult companionship industry lacks professional platforms with proper safety measures, comprehensive verification systems, and privacy protections. Users need a secure, discreet platform that prioritizes safety, professionalism, and regulatory compliance.",
+    "solution": "LIBFling provides a professional platform with comprehensive identity verification, end-to-end encrypted messaging, advanced privacy controls, and robust safety features. The platform maintains strict compliance standards while ensuring maximum user safety and discretion through industry-leading security measures.",
+    "duration": "4 months",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "End-to-End Encryption",
+      "AWS Services",
+      "Stripe",
+      "Twilio",
+      "Advanced Security Protocols"
+    ],
+    "features": [
+      "Multi-level identity verification system",
+      "End-to-end encrypted messaging",
+      "Advanced privacy and anonymity controls",
+      "Professional profile management",
+      "Secure payment processing",
+      "Comprehensive safety reporting",
+      "Location-based service discovery",
+      "Regulatory compliance tools",
+      "Professional review system",
+      "Emergency safety features",
+      "Discreet notification system",
+      "Professional dispute resolution"
+    ]
+  }
+]

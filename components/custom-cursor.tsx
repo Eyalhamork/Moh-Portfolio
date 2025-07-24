@@ -63,7 +63,7 @@ export const CustomCursor = () => {
       width: 80,
       backgroundColor: "rgba(255, 255, 255, 0.2)",
       border: "1px solid rgba(255, 255, 255, 0.5)",
-      mixBlendMode: "difference",
+      mixBlendMode: "difference" as const,
       transition: {
         type: "spring",
         mass: 0.6,

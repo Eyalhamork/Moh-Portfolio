@@ -1,7 +1,7 @@
 "use client";
 
 import { ReactNode, useEffect } from "react";
-import Lenis from "@studio-freight/lenis";
+import Lenis from "lenis"; // Updated import
 
 interface SmoothScrollProps {
   children: ReactNode;
@@ -12,9 +12,10 @@ export const SmoothScroll = ({ children }: SmoothScrollProps) => {
     const lenis = new Lenis({
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      // Remove direction and gestureDirection - not supported in this version
-      smooth: true,
-      smoothTouch: false,
+      orientation: "vertical", // Changed from 'direction'
+      gestureOrientation: "vertical", // Changed from 'gestureDirection'
+      smoothWheel: true, // Changed from 'smooth'
+      syncTouch: false, // Changed from 'smoothTouch'
       touchMultiplier: 2,
     });
 

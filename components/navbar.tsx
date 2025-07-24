@@ -6,11 +6,45 @@ import { useRouter, usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Sun, Moon, Code2, Coffee, Zap, Github } from "lucide-react";
+import {
+  Menu,
+  X,
+  Sun,
+  Moon,
+  Code2,
+  Coffee,
+  Zap,
+  Github,
+  LucideIcon,
+} from "lucide-react";
 import Lenis from "@studio-freight/lenis";
 import { useTheme } from "next-themes";
 
-const navItems = [
+// Type definitions
+interface NavItem {
+  name: string;
+  href: string;
+  route: string;
+  icon: LucideIcon;
+  color: string;
+}
+
+interface NavItemProps {
+  item: NavItem;
+  isActive: boolean;
+  onClick: (e: React.MouseEvent<HTMLAnchorElement>) => void;
+  isHomePage: boolean;
+}
+
+interface MobileNavItemProps {
+  item: NavItem;
+  index: number;
+  isActive: boolean;
+  onClick: (e: React.MouseEvent<HTMLAnchorElement>) => void;
+  isHomePage: boolean;
+}
+
+const navItems: NavItem[] = [
   {
     name: "Home",
     href: "#hero",
@@ -123,7 +157,7 @@ const VersionIndicator = () => {
 };
 
 // Navigation item component for better icon rendering
-const NavItem = ({ item, isActive, onClick, isHomePage }) => {
+const NavItem = ({ item, isActive, onClick, isHomePage }: NavItemProps) => {
   const IconComponent = item.icon;
 
   return (
@@ -175,7 +209,13 @@ const NavItem = ({ item, isActive, onClick, isHomePage }) => {
 };
 
 // Mobile navigation item component
-const MobileNavItem = ({ item, index, isActive, onClick, isHomePage }) => {
+const MobileNavItem = ({
+  item,
+  index,
+  isActive,
+  onClick,
+  isHomePage,
+}: MobileNavItemProps) => {
   const IconComponent = item.icon;
 
   return (
@@ -221,7 +261,7 @@ const MobileNavItem = ({ item, index, isActive, onClick, isHomePage }) => {
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [lenis, setLenis] = useState(null);
+  const [lenis, setLenis] = useState<Lenis | null>(null);
   const [mounted, setMounted] = useState(false);
   const [activeSection, setActiveSection] = useState("hero");
   const { theme, setTheme } = useTheme();
@@ -242,7 +282,7 @@ export function Navbar() {
       const lenisInstance = new Lenis({ smooth: true });
       setLenis(lenisInstance);
 
-      function raf(time) {
+      function raf(time: number) {
         lenisInstance.raf(time);
         requestAnimationFrame(raf);
       }
@@ -290,7 +330,10 @@ export function Navbar() {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
-  const handleNavigation = (e, item) => {
+  const handleNavigation = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    item: NavItem
+  ) => {
     e.preventDefault();
     setMobileMenuOpen(false); // Close mobile menu
 
@@ -311,7 +354,7 @@ export function Navbar() {
     }
   };
 
-  const handleContactNavigation = (e) => {
+  const handleContactNavigation = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     setMobileMenuOpen(false);
 

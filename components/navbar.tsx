@@ -279,13 +279,13 @@ export function Navbar() {
   useEffect(() => {
     // Only initialize Lenis on homepage
     if (isHomePage) {
-      const lenisInstance = new Lenis({ smooth: true });
+      const lenisInstance = new Lenis({});
       setLenis(lenisInstance);
 
-      function raf(time: number) {
+      const raf = (time: number) => {
         lenisInstance.raf(time);
         requestAnimationFrame(raf);
-      }
+      };
       requestAnimationFrame(raf);
 
       return () => lenisInstance.destroy();

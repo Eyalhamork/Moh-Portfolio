@@ -374,7 +374,7 @@ export function AboutSection() {
                 className="interactive"
                 onClick={() => {
                   const link = document.createElement("a");
-                  link.href = "/resume.pdf";
+                  link.href = "/MOHAMMED-KROMA-RESUME.pdf";
                   link.download = "resume.pdf";
                   document.body.appendChild(link);
                   link.click();

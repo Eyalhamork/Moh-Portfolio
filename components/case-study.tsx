@@ -64,7 +64,7 @@ const projects = [
 ];
 
 // Helper function for placeholder images - remove in production
-const getPlaceholderSrc = (width, height) =>
+const getPlaceholderSrc = (width: number, height: number) =>
   `/api/placeholder/${width}/${height}`;
 
 // Project Card Component

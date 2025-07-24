@@ -17,7 +17,7 @@ import {
   Github,
   LucideIcon,
 } from "lucide-react";
-import Lenis from "@studio-freight/lenis";
+import Lenis from "lenis";
 import { useTheme } from "next-themes";
 
 // Type definitions

@@ -62,10 +62,10 @@
     "title": "Salone Haven - Real Estate Platform",
     "description": "A comprehensive real estate platform for Sierra Leone, connecting buyers, sellers, and agents with advanced search capabilities and interactive mapping.",
     "fullDescription": "Salone Haven addresses the Sierra Leone real estate market's need for a modern, reliable platform. The application centralizes property listings that were previously scattered across social media and word-of-mouth networks, providing advanced search capabilities and professional transaction management.\n\nThe platform features Google Maps integration for location-based searches, virtual property tours, mortgage calculators, and secure document management. It's optimized for the local market with support for local currencies, payment methods, and multiple languages to serve both local and international users interested in Sierra Leone real estate.",
-    "image": "Salone-haven-cover.png",
+    "image": "Salone-Haven-cover.png",
     "coverImages": {
-      "dark": "Salone-haven-cover-dark.png",
-      "light": "Salone-haven-cover-light.png"
+      "dark": "Salone-Haven-cover-dark.png",
+      "light": "Salone-Haven-cover-light.png"
     },
     "gallery": [
       "Salone-Haven-2.png",
@@ -119,10 +119,10 @@
     "title": "SiblingCraft - Multi-Service Client Platform",
     "description": "A comprehensive client service platform managing projects, payments, AI-assisted interactions, and file sharing with MTN Mobile Money integration.",
     "fullDescription": "SiblingCraft is a full-stack platform designed to streamline the relationship between service providers and clients. It offers project management with milestone tracking, secure file sharing, AI-assisted messaging, and integrated payment processing through MTN Mobile Money.\n\nThe platform features a project wizard for step-by-step service creation, milestone-based delivery tracking, and a credit-based AI assistant system. With role-based dashboards for both clients and administrators, SiblingCraft provides comprehensive oversight tools for every stage of service delivery while maintaining security through Supabase Row Level Security policies.",
-    "image": "siblingcraft-cover.png",
+    "image": "Siblingcraft-cover.png",
     "coverImages": {
-      "dark": "siblingcraft-cover.png",
-      "light": "siblingcraft-cover.png"
+      "dark": "Siblingcraft-cover.png",
+      "light": "Siblingcraft-cover.png"
     },
     "gallery": [
       "Siblingcraft-2.png",
@@ -180,9 +180,9 @@
     "title": "ServiceHub AI - Freelance Marketplace",
     "description": "An AI-enhanced service marketplace connecting clients with verified providers across Africa, featuring skills verification and comprehensive training platform.",
     "fullDescription": "ServiceHub AI is a comprehensive service marketplace platform that connects clients with verified service providers across Africa. The platform goes beyond traditional freelancing by incorporating skills verification systems, comprehensive training platforms, and AI-enhanced matching capabilities.\n\nFeaturing separate dashboards for clients and providers, the platform includes real-time messaging, secure payment processing, skills assessment with badge certifications, and a YouTube-integrated training system. Built as a Progressive Web App with offline capabilities, ServiceHub AI offers a complete ecosystem for service discovery, booking, and delivery with robust analytics and review systems.",
-    "image": "Servicehub-cover-dark.png",
+    "image": "servicehub-cover-dark.png",
     "coverImages": {
-      "dark": "Servicehub-cover-dark.png",
+      "dark": "servicehub-cover-dark.png",
       "light": "Servicehub-cover-light.png"
     },
     "gallery": [
@@ -248,10 +248,10 @@
     "title": "LIBFling - Professional Companionship Platform",
     "description": "A secure, professional platform for adult companionship services with industry-leading safety features, verification systems, and privacy protection.",
     "fullDescription": "LIBFling addresses the need for a professional, secure platform in the adult companionship industry. The platform prioritizes safety, privacy, and professionalism through comprehensive identity verification, advanced privacy controls, and robust safety reporting systems.\n\nBuilt with industry-leading security measures, the platform features end-to-end encrypted communications, professional profile management, secure payment processing, and strict regulatory compliance tools. All interactions are encrypted and the platform maintains the highest standards of user safety and discretion while providing a professional service experience.",
-    "image": "Libfling-cover-dark.png",
+    "image": "libfling-cover-dark.png",
     "coverImages": {
-      "dark": "Libfling-cover-dark.png",
-      "light": "Libfling-cover-light.png"
+      "dark": "libfling-cover-dark.png",
+      "light": "libfling-cover-light.png"
     },
     "gallery": [
       "libfling-dark-2.png",

@@ -30,12 +30,18 @@ export function ProjectCard({
   index,
 }: ProjectCardProps) {
   const [isHovered, setIsHovered] = useState(false);
+  const [imageError, setImageError] = useState(false);
   const { theme, resolvedTheme } = useTheme();
 
   // Get the appropriate cover image based on theme
   const getCoverImage = () => {
     // Use resolvedTheme for more reliable theme detection
     const currentTheme = resolvedTheme || theme;
+
+    // If there was an error loading the themed image, fall back to the base image
+    if (imageError) {
+      return `/projects/${image}`;
+    }
 
     if (currentTheme === "light" && coverImages.light) {
       return `/projects/${coverImages.light}`;
@@ -45,6 +51,11 @@ export function ProjectCard({
 
     // Fallback to dark theme cover image or original image
     return `/projects/${coverImages.dark || image}`;
+  };
+
+  const handleImageError = () => {
+    console.error(`Failed to load image: ${getCoverImage()}`);
+    setImageError(true);
   };
 
   return (
@@ -72,12 +83,11 @@ export function ProjectCard({
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-105"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              priority={index < 3} // Add priority for first 3 images
-              onError={(e) => {
-                // Fallback to a placeholder or default image on error
-                console.error(`Failed to load image: ${getCoverImage()}`);
-                e.currentTarget.src = "/images/placeholder-project.jpg"; // Make sure this exists
-              }}
+              priority={index < 3}
+              onError={handleImageError}
+              // Add these props for better loading
+              placeholder="blur"
+              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/10 to-transparent opacity-30" />
           </div>

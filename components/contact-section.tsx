@@ -153,12 +153,12 @@ export function ContactSection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="text-center mb-12"
+          className="text-left md:text-center mb-12 mt-16"
         >
-          <h2 className="text-3xl md:text-6xl font-bold font-montserrat mb-4">
+          <h2 className="text-3xl md:text-6xl font-bold font-montserrat mb-4 ">
             Let's Work Together
           </h2>
-          <div className="flex items-center justify-center space-x-2 mb-6">
+          <div className="flex items-left md:items-center  justify-left md:justify-center space-x-2 mb-6 mt-6">
             <Clock className="h-4 w-4 text-green-500" />
             <span className="text-sm text-muted-foreground">
               {responseTime[formType]}
@@ -196,7 +196,7 @@ export function ContactSection() {
                     href="mailto:moh@mohkromah.com"
                     className="text-muted-foreground hover:text-primary transition-colors duration-200"
                   >
-                    moh@mohkromah.com
+                    lhkromah@gmail.com
                   </a>
                 </div>
               </div>
@@ -239,7 +239,7 @@ export function ContactSection() {
               {/* Social Links */}
               <div className="flex space-x-4 mb-8">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/Eyalhamork"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="h-10 w-10 rounded-full bg-card/80 border border-border/50 flex items-center justify-center hover:bg-primary/10 transition-all duration-200 hover:scale-110"
@@ -247,20 +247,12 @@ export function ContactSection() {
                   <Github className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/layee-kromah"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="h-10 w-10 rounded-full bg-card/80 border border-border/50 flex items-center justify-center hover:bg-primary/10 transition-all duration-200 hover:scale-110"
                 >
                   <Linkedin className="h-5 w-5" />
-                </a>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="h-10 w-10 rounded-full bg-card/80 border border-border/50 flex items-center justify-center hover:bg-primary/10 transition-all duration-200 hover:scale-110"
-                >
-                  <Twitter className="h-5 w-5" />
                 </a>
               </div>
             </div>

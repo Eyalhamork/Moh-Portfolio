@@ -23,7 +23,7 @@ export function Footer() {
             </p>
             <div className="flex space-x-4 mt-6">
               <a
-                href="https://github.com"
+                href="https://github.com/Eyalhamork"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200 interactive"
@@ -31,20 +31,12 @@ export function Footer() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/layee-kromah/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors duration-200 interactive"
               >
                 <Linkedin className="h-5 w-5" />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors duration-200 interactive"
-              >
-                <Twitter className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -70,14 +62,6 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="#case-studies"
-                  className="text-muted-foreground hover:text-primary transition-colors duration-200 interactive"
-                >
-                  Case Studies
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="#about"
                   className="text-muted-foreground hover:text-primary transition-colors duration-200 interactive"
                 >
@@ -98,7 +82,7 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li className="text-muted-foreground">hamork@mohkromah.com</li>
+              <li className="text-muted-foreground">lhkromah@gmail.com</li>
               <li className="text-muted-foreground">
                 Barnesville Monrovia, Liberia
               </li>
@@ -114,7 +98,8 @@ export function Footer() {
           className="border-t border-border/30 mt-12 pt-6 text-center text-sm text-muted-foreground"
         >
           <p>
-            © {new Date().getFullYear()} Moh Portfolio. All rights reserved.
+            © {new Date().getFullYear()} Mohammed Kromah Portfolio. All rights
+            reserved.
           </p>
         </motion.div>
       </div>

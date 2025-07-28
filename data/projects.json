@@ -29,7 +29,7 @@
       "React"
     ],
     "liveUrl": "https://silenvia.netlify.app",
-    "githubUrl": "https://github.com/yourusername/silenvia-ai-therapy",
+    "githubUrl": "https://github.com/Eyalhamork/silenvia-ai-therapy",
     "problem": "Traditional mental health apps lack cultural sensitivity and adaptation. Different cultures have varying approaches to emotional expression, help-seeking behavior, and therapeutic preferences, creating barriers for users from diverse backgrounds seeking mental health support.",
     "solution": "Silenvia provides culturally-aware AI therapy that completely transforms its interface, therapeutic approaches, and recommendations based on the user's cultural background. The platform uses advanced AI for personalized therapy while maintaining privacy through blockchain integration and offers comprehensive mood tracking with culturally-relevant emotional expressions.",
     "duration": "Hackathon Project (Built in 15 days)",
@@ -83,7 +83,7 @@
       "Local Market"
     ],
     "liveUrl": "https://salone-haven.vercel.app",
-    "githubUrl": "https://github.com/yourusername/salone-haven-real-estate",
+    "githubUrl": "https://github.com/Eyalhamork/salone-haven-real-estate",
     "problem": "Sierra Leone's real estate market lacked a centralized, professional platform for property transactions. Most listings were scattered across social media platforms or shared through word-of-mouth, making it difficult for buyers to discover properties and for sellers to reach potential customers effectively.",
     "solution": "Salone Haven provides a comprehensive real estate platform with advanced search and filtering, interactive Google Maps integration, virtual tours, and secure transaction management. The platform is specifically optimized for the Sierra Leone market with local payment integration and multi-language support.",
     "duration": "3 months",
@@ -144,7 +144,7 @@
       "React"
     ],
     "liveUrl": "https://sibling-craft.vercel.app",
-    "githubUrl": "https://github.com/yourusername/sibling-craft-freelance",
+    "githubUrl": "https://github.com/Eyalhamork/sibling-craft-freelance",
     "problem": "Service providers and clients lacked a unified platform to manage projects, communications, payments, and file sharing. The fragmented workflow across multiple tools led to inefficiencies and poor client experience, especially in regions where mobile money is the primary payment method.",
     "solution": "SiblingCraft provides an all-in-one platform with project wizards, milestone tracking, AI-assisted communication, secure file sharing, and MTN Mobile Money integration. The platform features role-based dashboards and comprehensive admin oversight tools to streamline the entire service delivery process.",
     "duration": "5 months",
@@ -208,7 +208,7 @@
       "PWA"
     ],
     "liveUrl": "https://servicehub-ai.vercel.app",
-    "githubUrl": "https://github.com/yourusername/servicehub-ai-freelance",
+    "githubUrl": "https://github.com/Eyalhamork/servicehub-ai-freelance",
     "problem": "Traditional freelance platforms lack proper skills verification and training systems, leading to quality inconsistencies and poor client-provider matches. Service providers, especially in Africa, need accessible skill development opportunities and verified credential systems to build trust with clients.",
     "solution": "ServiceHub AI provides a comprehensive marketplace with integrated skills assessment, badge certifications, and YouTube-based training platform. The AI-enhanced matching system connects clients with verified providers while offering continuous skill development opportunities and comprehensive project management tools.",
     "duration": "6 months",
@@ -279,7 +279,7 @@
       "Compliance"
     ],
     "liveUrl": "https://libfling-platform.vercel.app",
-    "githubUrl": "https://github.com/yourusername/libfling-escort-platform",
+    "githubUrl": "https://github.com/Eyalhamork/libfling-escort-platform",
     "problem": "The adult companionship industry lacks professional platforms with proper safety measures, comprehensive verification systems, and privacy protections. Users need a secure, discreet platform that prioritizes safety, professionalism, and regulatory compliance.",
     "solution": "LIBFling provides a professional platform with comprehensive identity verification, end-to-end encrypted messaging, advanced privacy controls, and robust safety features. The platform maintains strict compliance standards while ensuring maximum user safety and discretion through industry-leading security measures.",
     "duration": "4 months",

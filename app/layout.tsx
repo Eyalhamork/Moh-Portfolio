@@ -33,6 +33,16 @@ export const metadata: Metadata = {
   title: "Moh Portfolio | Web Developer & UI/UX Designer",
   description:
     "Mohammed Kromah Professional portfolio showcasing web development projects and UI/UX design expertise",
+  icons: {
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({

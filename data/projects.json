@@ -246,7 +246,7 @@
     "fullDescription": "Crown Prince Inc. is a modern, professional website built for a construction and services company, featuring dynamic quote generation and project estimation tools. The platform provides a comprehensive corporate presence with interactive tools for client engagement and project cost calculation.\n\nThe website includes multiple service pages, a dynamic quote generator allowing customers to generate instant quotes based on service selection and project specifications, and an advanced project cost estimator that factors in materials, labor, and timelines. Built with Next.js for optimal performance and SEO optimization, the site delivers a perfect experience across all devices with validated contact forms and comprehensive service portfolio showcases.",
     "image": "crownprince-cover.png",
     "coverImages": {
-      "dark": "crownprince-cover.png",
+      "dark": "crownprince-cover.jpg",
       "light": "crownprince-cover.png"
     },
     "gallery": [

@@ -6,16 +6,16 @@
     "fullDescription": "LiberiaFix revolutionizes service discovery in Liberia through a comprehensive marketplace platform featuring innovative dual booking systems and seamless payment integration. The platform solves Liberia's centralized service discovery problem by connecting customers with verified service providers through instant booking or competitive bidding.\n\nBuilt as a Progressive Web App optimized for low-bandwidth environments, LiberiaFix features MTN Mobile Money integration for secure payments, real-time messaging for seamless communication, and a freemium provider model to reduce entry barriers. The platform serves 500+ verified providers across 15+ service categories, processing payments securely through local mobile money while maintaining 99.8% uptime.",
     "image": "libfling-cover-dark.png",
     "coverImages": {
-      "dark": "libfling-cover-dark.png",
-      "light": "libfling-cover-light.png"
+      "dark": "liberiafix-cover.png",
+      "light": "liberiafix-cover.png"
     },
     "gallery": [
-      "libfling-dark-1.png",
-      "libfling-dark-2.png",
-      "libfling-dark-3.png",
-      "libfling-dark-4.png",
-      "libfling-dark-5.png",
-      "libfling-dark-6.png"
+      "liberiafix-1.png",
+      "liberiafix-2.png",
+       "liberiafix-3.png",
+        "liberiafix-4.png",
+        "liberiafix-5.png",
+        "liberiafix-6.png"
     ],
     "tags": [
       "Marketplace",

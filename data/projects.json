@@ -1,5 +1,65 @@
 [
   {
+    "id": "liberiafix",
+    "title": "LiberiaFix - Service Marketplace Platform",
+    "description": "Multi-service marketplace PWA connecting customers with local service providers across Liberia with dual booking systems and mobile money integration.",
+    "fullDescription": "LiberiaFix revolutionizes service discovery in Liberia through a comprehensive marketplace platform featuring innovative dual booking systems and seamless payment integration. The platform solves Liberia's centralized service discovery problem by connecting customers with verified service providers through instant booking or competitive bidding.\n\nBuilt as a Progressive Web App optimized for low-bandwidth environments, LiberiaFix features MTN Mobile Money integration for secure payments, real-time messaging for seamless communication, and a freemium provider model to reduce entry barriers. The platform serves 500+ verified providers across 15+ service categories, processing payments securely through local mobile money while maintaining 99.8% uptime.",
+    "image": "libfling-cover-dark.png",
+    "coverImages": {
+      "dark": "libfling-cover-dark.png",
+      "light": "libfling-cover-light.png"
+    },
+    "gallery": [
+      "libfling-dark-1.png",
+      "libfling-dark-2.png",
+      "libfling-dark-3.png",
+      "libfling-dark-4.png",
+      "libfling-dark-5.png",
+      "libfling-dark-6.png"
+    ],
+    "tags": [
+      "Marketplace",
+      "PWA",
+      "Mobile Money",
+      "Service Discovery",
+      "Next.js"
+    ],
+    "liveUrl": "https://liberiafix.com",
+    "githubUrl": "https://github.com/Eyalhamork/liberiafix",
+    "problem": "Liberia lacks a centralized digital platform for finding and booking reliable service providers. Most transactions happen through word-of-mouth, leading to trust issues, pricing inconsistencies, and limited provider visibility. The market needed a solution that works in low-bandwidth environments while supporting local payment methods.",
+    "solution": "Architected a full-stack Progressive Web App with dual revenue streams: direct booking ($3 fee) and competitive bidding ($7 fee). Implemented MTN Mobile Money integration for seamless payments, real-time messaging for communication, and a freemium provider model to reduce entry barriers.",
+    "duration": "In Production",
+    "techStack": [
+      "Next.js 14",
+      "TypeScript",
+      "Supabase",
+      "PostgreSQL",
+      "MTN Mobile Money",
+      "PWA",
+      "Tailwind CSS",
+      "Edge Functions",
+      "Row Level Security",
+      "JWT Authentication"
+    ],
+    "features": [
+      "Dual booking system (instant booking & competitive bidding)",
+      "MTN Mobile Money payment integration",
+      "Real-time messaging system",
+      "Provider tier system (Free & Pro subscriptions)",
+      "Progressive Web App capabilities",
+      "Comprehensive security with Row Level Security",
+      "Webhook handling for payment verification",
+      "Mobile-first responsive design",
+      "Dual table architecture for legacy support",
+      "Optimized data fetching strategies",
+      "Edge Functions for business logic",
+      "Service provider verification system",
+      "Multi-category service listings",
+      "User review and rating system",
+      "Admin dashboard for platform management"
+    ]
+  },
+  {
     "id": "silenvia-ai-therapy",
     "title": "Silenvia - AI Therapy Companion",
     "description": "A culturally-aware AI therapy companion offering personalized mental health support across diverse cultural backgrounds with blockchain-powered privacy.",
@@ -55,63 +115,6 @@
       "Multilingual guided meditation exercises",
       "Progress tracking and insights",
       "Cultural-specific UI transformations"
-    ]
-  },
-  {
-    "id": "salone-haven-real-estate",
-    "title": "Salone Haven - Real Estate Platform",
-    "description": "A comprehensive real estate platform for Sierra Leone, connecting buyers, sellers, and agents with advanced search capabilities and interactive mapping.",
-    "fullDescription": "Salone Haven addresses the Sierra Leone real estate market's need for a modern, reliable platform. The application centralizes property listings that were previously scattered across social media and word-of-mouth networks, providing advanced search capabilities and professional transaction management.\n\nThe platform features Google Maps integration for location-based searches, virtual property tours, mortgage calculators, and secure document management. It's optimized for the local market with support for local currencies, payment methods, and multiple languages to serve both local and international users interested in Sierra Leone real estate.",
-    "image": "Salone-Haven-cover.png",
-    "coverImages": {
-      "dark": "Salone-Haven-cover-dark.png",
-      "light": "Salone-Haven-cover-light.png"
-    },
-    "gallery": [
-      "Salone-Haven-2.png",
-      "Salone-Haven-3.png",
-      "Salone-Haven-4.png",
-      "Salone-Haven-555555.png",
-      "Salone-Haven-6.png"
-    ],
-    "tags": [
-      "Real Estate",
-      "Next.js",
-      "Maps",
-      "PostgreSQL",
-      "Supabase",
-      "Local Market"
-    ],
-    "liveUrl": "https://salone-haven.vercel.app",
-    "githubUrl": "https://github.com/Eyalhamork/salone-haven-real-estate",
-    "problem": "Sierra Leone's real estate market lacked a centralized, professional platform for property transactions. Most listings were scattered across social media platforms or shared through word-of-mouth, making it difficult for buyers to discover properties and for sellers to reach potential customers effectively.",
-    "solution": "Salone Haven provides a comprehensive real estate platform with advanced search and filtering, interactive Google Maps integration, virtual tours, and secure transaction management. The platform is specifically optimized for the Sierra Leone market with local payment integration and multi-language support.",
-    "duration": "3 months",
-    "techStack": [
-      "React",
-      "TypeScript",
-      "Vite",
-      "Supabase",
-      "PostgreSQL",
-      "Google Maps API",
-      "Tailwind CSS",
-      "Shadcn UI",
-      "React Hook Form",
-      "Framer Motion"
-    ],
-    "features": [
-      "Advanced property search with keyword and location filters",
-      "Interactive Google Maps with property markers",
-      "Map-based search with radius selection",
-      "Property image galleries and virtual tours",
-      "Mortgage calculator and financial tools",
-      "Agent and buyer dashboard systems",
-      "Secure document management",
-      "Favorites system and property sharing",
-      "Multi-language support",
-      "Local payment method integration",
-      "Admin dashboard for property management",
-      "Inquiry management system"
     ]
   },
   {
@@ -176,63 +179,60 @@
     ]
   },
   {
-    "id": "liberiafix",
-    "title": "LiberiaFix - Service Marketplace Platform",
-    "description": "Multi-service marketplace PWA connecting customers with local service providers across Liberia with dual booking systems and mobile money integration.",
-    "fullDescription": "LiberiaFix revolutionizes service discovery in Liberia through a comprehensive marketplace platform featuring innovative dual booking systems and seamless payment integration. The platform solves Liberia's centralized service discovery problem by connecting customers with verified service providers through instant booking or competitive bidding.\n\nBuilt as a Progressive Web App optimized for low-bandwidth environments, LiberiaFix features MTN Mobile Money integration for secure payments, real-time messaging for seamless communication, and a freemium provider model to reduce entry barriers. The platform serves 500+ verified providers across 15+ service categories, processing payments securely through local mobile money while maintaining 99.8% uptime.",
-    "image": "libfling-cover-dark.png",
+    "id": "salone-haven-real-estate",
+    "title": "Salone Haven - Real Estate Platform",
+    "description": "A comprehensive real estate platform for Sierra Leone, connecting buyers, sellers, and agents with advanced search capabilities and interactive mapping.",
+    "fullDescription": "Salone Haven addresses the Sierra Leone real estate market's need for a modern, reliable platform. The application centralizes property listings that were previously scattered across social media and word-of-mouth networks, providing advanced search capabilities and professional transaction management.\n\nThe platform features Google Maps integration for location-based searches, virtual property tours, mortgage calculators, and secure document management. It's optimized for the local market with support for local currencies, payment methods, and multiple languages to serve both local and international users interested in Sierra Leone real estate.",
+    "image": "Salone-Haven-cover.png",
     "coverImages": {
-      "dark": "libfling-cover-dark.png",
-      "light": "libfling-cover-light.png"
+      "dark": "Salone-Haven-cover-dark.png",
+      "light": "Salone-Haven-cover-light.png"
     },
     "gallery": [
-      "libfling-dark-1.png",
-      "libfling-dark-2.png",
-      "libfling-dark-3.png",
-      "libfling-dark-4.png",
-      "libfling-dark-5.png",
-      "libfling-dark-6.png"
+      "Salone-Haven-2.png",
+      "Salone-Haven-3.png",
+      "Salone-Haven-4.png",
+      "Salone-Haven-555555.png",
+      "Salone-Haven-6.png"
     ],
     "tags": [
-      "Marketplace",
-      "PWA",
-      "Mobile Money",
-      "Service Discovery",
-      "Next.js"
+      "Real Estate",
+      "Next.js",
+      "Maps",
+      "PostgreSQL",
+      "Supabase",
+      "Local Market"
     ],
-    "liveUrl": "https://liberiafix.com",
-    "githubUrl": "https://github.com/Eyalhamork/liberiafix",
-    "problem": "Liberia lacks a centralized digital platform for finding and booking reliable service providers. Most transactions happen through word-of-mouth, leading to trust issues, pricing inconsistencies, and limited provider visibility. The market needed a solution that works in low-bandwidth environments while supporting local payment methods.",
-    "solution": "Architected a full-stack Progressive Web App with dual revenue streams: direct booking ($3 fee) and competitive bidding ($7 fee). Implemented MTN Mobile Money integration for seamless payments, real-time messaging for communication, and a freemium provider model to reduce entry barriers.",
-    "duration": "In Production",
+    "liveUrl": "https://salone-haven.vercel.app",
+    "githubUrl": "https://github.com/Eyalhamork/salone-haven-real-estate",
+    "problem": "Sierra Leone's real estate market lacked a centralized, professional platform for property transactions. Most listings were scattered across social media platforms or shared through word-of-mouth, making it difficult for buyers to discover properties and for sellers to reach potential customers effectively.",
+    "solution": "Salone Haven provides a comprehensive real estate platform with advanced search and filtering, interactive Google Maps integration, virtual tours, and secure transaction management. The platform is specifically optimized for the Sierra Leone market with local payment integration and multi-language support.",
+    "duration": "3 months",
     "techStack": [
-      "Next.js 14",
+      "React",
       "TypeScript",
+      "Vite",
       "Supabase",
       "PostgreSQL",
-      "MTN Mobile Money",
-      "PWA",
+      "Google Maps API",
       "Tailwind CSS",
-      "Edge Functions",
-      "Row Level Security",
-      "JWT Authentication"
+      "Shadcn UI",
+      "React Hook Form",
+      "Framer Motion"
     ],
     "features": [
-      "Dual booking system (instant booking & competitive bidding)",
-      "MTN Mobile Money payment integration",
-      "Real-time messaging system",
-      "Provider tier system (Free & Pro subscriptions)",
-      "Progressive Web App capabilities",
-      "Comprehensive security with Row Level Security",
-      "Webhook handling for payment verification",
-      "Mobile-first responsive design",
-      "Dual table architecture for legacy support",
-      "Optimized data fetching strategies",
-      "Edge Functions for business logic",
-      "Service provider verification system",
-      "Multi-category service listings",
-      "User review and rating system",
-      "Admin dashboard for platform management"
+      "Advanced property search with keyword and location filters",
+      "Interactive Google Maps with property markers",
+      "Map-based search with radius selection",
+      "Property image galleries and virtual tours",
+      "Mortgage calculator and financial tools",
+      "Agent and buyer dashboard systems",
+      "Secure document management",
+      "Favorites system and property sharing",
+      "Multi-language support",
+      "Local payment method integration",
+      "Admin dashboard for property management",
+      "Inquiry management system"
     ]
   },
   {

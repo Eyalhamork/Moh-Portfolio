@@ -172,7 +172,7 @@ export function ContactSection() {
           </div>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 xl:gap-32">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 xl:gap-32 items-start">
           {/* Left Column - Contact Info & Social Proof */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}

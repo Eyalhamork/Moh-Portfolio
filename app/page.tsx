@@ -14,8 +14,8 @@ const structuredData = {
   jobTitle: "Frontend Developer",
   description:
     "Experienced frontend and fullstack developer from West Africa specializing in Next.js, React, TypeScript, and modern web technologies.",
-  url: "https://mohkromah.com",
-  image: "https://mohkromah.com/images/web2.png",
+  url: "https://mohkromah.tech",
+  image: "https://mohkromah.tech/images/web2.png",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Monrovia",

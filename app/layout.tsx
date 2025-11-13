@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     "web developer ghana",
     "typescript developer africa",
   ],
-  authors: [{ name: "Mohammed Kromah", url: "https://mohkromah.com" }],
+  authors: [{ name: "Mohammed Kromah", url: "https://mohkromah.tech" }],
   creator: "Mohammed Kromah",
   publisher: "Mohammed Kromah",
   robots: {
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://mohkromah.com",
+    url: "https://mohkromah.tech",
     siteName: "Mohammed Kromah Portfolio",
     title: "Mohammed Kromah - Frontend Developer | West Africa",
     description:
@@ -95,9 +95,9 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/site.webmanifest",
-  metadataBase: new URL("https://mohkromah.com"),
+  metadataBase: new URL("https://mohkromah.tech"),
   alternates: {
-    canonical: "https://mohkromah.com",
+    canonical: "https://mohkromah.tech",
   },
 };
 

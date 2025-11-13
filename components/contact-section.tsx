@@ -207,7 +207,7 @@ export function ContactSection() {
                   variant="outline"
                   className="justify-start h-auto py-3 px-4"
                   onClick={() =>
-                    window.open("https://calendly.com/your-link", "_blank")
+                    window.open("https://calendly.com/lhkromah/30min", "_blank")
                   }
                 >
                   <Calendar className="h-4 w-4 mr-2" />
@@ -223,7 +223,7 @@ export function ContactSection() {
                   variant="outline"
                   className="justify-start h-auto py-3 px-4"
                   onClick={() =>
-                    window.open("https://meet.google.com/your-link", "_blank")
+                    window.open("https://meet.google.com/tef-tnim-mor", "_blank")
                   }
                 >
                   <Video className="h-4 w-4 mr-2" />

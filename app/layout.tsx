@@ -30,9 +30,61 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Moh Portfolio | Web Developer & UI/UX Designer",
+  title: "Mohammed Kromah - Frontend Developer | West Africa | Remote Work",
   description:
-    "Mohammed Kromah Professional portfolio showcasing web development projects and UI/UX design expertise",
+    "Experienced frontend & fullstack developer from Liberia, West Africa. Specializing in Next.js, React, TypeScript, and modern web technologies. Available for remote opportunities worldwide. 18+ years in Ghana.",
+  keywords: [
+    "frontend developer west africa",
+    "web developer liberia",
+    "remote developer africa",
+    "next.js developer africa",
+    "react developer ghana",
+    "fullstack developer liberia",
+    "mohammed kromah",
+    "african software engineer",
+    "hire african developer",
+    "web developer ghana",
+    "typescript developer africa",
+  ],
+  authors: [{ name: "Mohammed Kromah", url: "https://mohkromah.tech" }],
+  creator: "Mohammed Kromah",
+  publisher: "Mohammed Kromah",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://mohkromah.tech",
+    siteName: "Mohammed Kromah Portfolio",
+    title: "Mohammed Kromah - Frontend Developer | West Africa",
+    description:
+      "Experienced frontend & fullstack developer from West Africa. Specializing in Next.js, React, TypeScript. Available for remote opportunities worldwide.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Mohammed Kromah - Frontend Developer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mohammed Kromah - Frontend Developer | West Africa",
+    description:
+      "Experienced frontend & fullstack developer from West Africa. Specializing in Next.js, React, TypeScript. Available for remote opportunities.",
+    images: ["/og-image.png"],
+    creator: "@mohkromah",
+  },
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
@@ -43,6 +95,10 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/site.webmanifest",
+  metadataBase: new URL("https://mohkromah.tech"),
+  alternates: {
+    canonical: "https://mohkromah.tech",
+  },
 };
 
 export default function RootLayout({

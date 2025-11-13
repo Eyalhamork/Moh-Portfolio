@@ -343,10 +343,10 @@ export function AboutSection() {
               viewport={{ once: true }}
               className="text-muted-foreground mb-6"
             >
-              I'm a passionate Web Developer and UI/UX Designer with a strong
+              I'm a passionate Web Developer and UI/UX Designer from West Africa with a strong
               focus on creating beautiful, functional, and user-centered digital
-              experiences. With expertise in modern web technologies and design
-              principles, I bridge the gap between aesthetics and functionality.
+              experiences. Based in Liberia and having honed my skills over 18+ years in Ghana,
+              I bring a unique perspective to solving problems for both local and international markets.
             </motion.p>
 
             <motion.p
@@ -359,7 +359,7 @@ export function AboutSection() {
               My approach combines technical excellence with creative
               problem-solving, resulting in digital products that not only look
               stunning but also deliver exceptional user experiences and
-              business value.
+              business value. I'm available for remote opportunities worldwide.
             </motion.p>
 
             <motion.div

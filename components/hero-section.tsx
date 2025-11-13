@@ -240,7 +240,7 @@ export function HeroSection() {
             <Code className="w-4 h-4 text-blue-500" />
           </motion.div>
           <span className="text-gray-800 dark:text-gray-200">
-            Frontend Developer & UI Designer
+            Frontend Developer & UI Designer • West Africa
           </span>
         </motion.div>
 

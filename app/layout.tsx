@@ -99,6 +99,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://mohkromah.tech",
   },
+  verification: {
+    google: "_vBPjfJgLMiYWHF2Tgk0Oue9W-zlJE4lQsGEr3RWyM4",
+  },
 };
 
 export default function RootLayout({

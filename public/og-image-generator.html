@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OG Image Generator - Mohammed Kromah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #111;
+            padding: 20px;
+        }
+
+        .og-container {
+            width: 1200px;
+            height: 630px;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a1625 100%);
+            border-radius: 0;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Animated background elements */
+        .bg-blur {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            opacity: 0.4;
+        }
+
+        .blur-1 {
+            width: 500px;
+            height: 500px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            top: -200px;
+            left: -100px;
+        }
+
+        .blur-2 {
+            width: 400px;
+            height: 400px;
+            background: linear-gradient(135deg, #8b5cf6, #ec4899);
+            bottom: -150px;
+            right: -100px;
+        }
+
+        .blur-3 {
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(135deg, #06b6d4, #3b82f6);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /* Grid pattern */
+        .grid-pattern {
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            opacity: 0.3;
+        }
+
+        /* Content */
+        .content {
+            position: relative;
+            z-index: 10;
+            padding: 80px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .badge {
+            background: rgba(59, 130, 246, 0.15);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            color: #60a5fa;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            backdrop-filter: blur(10px);
+        }
+
+        /* Main content */
+        .main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .name {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 82px;
+            font-weight: 800;
+            color: #ffffff;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            letter-spacing: -2px;
+        }
+
+        .title {
+            font-size: 38px;
+            font-weight: 600;
+            background: linear-gradient(135deg, #60a5fa, #a78bfa, #ec4899);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 24px;
+            letter-spacing: -1px;
+        }
+
+        .description {
+            font-size: 24px;
+            color: #9ca3af;
+            font-weight: 500;
+            max-width: 800px;
+            line-height: 1.5;
+        }
+
+        /* Footer */
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .tech-stack {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .tech-tag {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #d1d5db;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            backdrop-filter: blur(10px);
+        }
+
+        .website {
+            font-size: 18px;
+            color: #60a5fa;
+            font-weight: 600;
+        }
+
+        /* Decorative elements */
+        .decoration {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border: 2px solid rgba(59, 130, 246, 0.2);
+            border-radius: 30px;
+            transform: rotate(45deg);
+        }
+
+        .decoration-1 {
+            top: -100px;
+            right: 100px;
+        }
+
+        .decoration-2 {
+            bottom: -120px;
+            left: 150px;
+            width: 250px;
+            height: 250px;
+        }
+
+        /* Instructions */
+        .instructions {
+            margin-top: 40px;
+            color: #9ca3af;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .instructions strong {
+            color: #60a5fa;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <div class="og-container" id="og-card">
+            <!-- Background elements -->
+            <div class="bg-blur blur-1"></div>
+            <div class="bg-blur blur-2"></div>
+            <div class="bg-blur blur-3"></div>
+            <div class="grid-pattern"></div>
+
+            <!-- Decorative elements -->
+            <div class="decoration decoration-1"></div>
+            <div class="decoration decoration-2"></div>
+
+            <!-- Content -->
+            <div class="content">
+                <!-- Header -->
+                <div class="header">
+                    <div class="badge">🌍 WEST AFRICA</div>
+                    <div class="badge">💼 AVAILABLE FOR REMOTE WORK</div>
+                </div>
+
+                <!-- Main content -->
+                <div class="main">
+                    <h1 class="name">Mohammed Kromah</h1>
+                    <h2 class="title">Frontend & Fullstack Developer</h2>
+                    <p class="description">
+                        Building production-ready web applications with Next.js, React, TypeScript, and modern web technologies.
+                    </p>
+                </div>
+
+                <!-- Footer -->
+                <div class="footer">
+                    <div class="tech-stack">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Tailwind CSS</span>
+                    </div>
+                    <div class="website">mohkromah.tech</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <p><strong>Instructions:</strong></p>
+            <p>1. Press <strong>F11</strong> to go fullscreen (or Fn+F11 on Mac)</p>
+            <p>2. Take a screenshot of just the card above (use Snipping Tool/Screenshot app)</p>
+            <p>3. Save as <strong>og-image.png</strong></p>
+            <p>4. Place in <strong>/public/og-image.png</strong></p>
+            <p style="margin-top: 20px; font-size: 14px;">The card is exactly 1200x630px - perfect for social media!</p>
+        </div>
+    </div>
+</body>
+</html>

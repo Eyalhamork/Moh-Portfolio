@@ -123,16 +123,16 @@ export function ContactSection() {
 
   const testimonials = [
     {
-      name: "Sarah Chen",
-      role: "Product Manager at TechFlow",
+      name: "Kester Howard",
+      role: "Co-founder at SiblingCraft",
       content:
-        "Exceptional work and lightning-fast delivery. Highly recommended!",
+        "Mohammed delivered an exceptional client management platform that exceeded our expectations. His expertise in integrating AI features and payment systems was outstanding, and his professionalism made the entire process seamless.",
       rating: 5,
     },
     {
-      name: "Marcus Johnson",
-      role: "CEO at InnovateCorp",
-      content: "Professional, creative, and delivered beyond our expectations.",
+      name: "Peter Kuyembeh",
+      role: "Founder at Salone Haven",
+      content: "Working with Mohammed on our real estate platform was transformative. He understood the unique needs of the Sierra Leone market and built a sophisticated solution with flawless Google Maps integration. Highly skilled and dependable.",
       rating: 5,
     },
   ];

@@ -14,6 +14,7 @@ export interface Project {
   tags: string[];
   liveUrl: string;
   githubUrl: string;
+  isPrivateRepo?: boolean;
   problem: string;
   solution: string;
   duration: string;

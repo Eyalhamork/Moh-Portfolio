@@ -28,8 +28,9 @@
       "Service Discovery",
       "Next.js"
     ],
-    "liveUrl": "https://liberiafix.com",
-    "githubUrl": "https://github.com/Eyalhamork/liberiafix",
+    "liveUrl": "https://liberiafix.vercel.app",
+    "githubUrl": "https://github.com/Eyalhamork/LiberiaFix-final",
+    "isPrivateRepo": true,
     "problem": "Liberia lacks a centralized digital platform for finding and booking reliable service providers. Most transactions happen through word-of-mouth, leading to trust issues, pricing inconsistencies, and limited provider visibility. The market needed a solution that works in low-bandwidth environments while supporting local payment methods.",
     "solution": "Architected a full-stack Progressive Web App with dual revenue streams: direct booking ($3 fee) and competitive bidding ($7 fee). Implemented MTN Mobile Money integration for seamless payments, real-time messaging for communication, and a freemium provider model to reduce entry barriers.",
     "duration": "In Production",

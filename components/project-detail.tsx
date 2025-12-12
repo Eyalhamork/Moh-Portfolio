@@ -176,21 +176,28 @@ export default function ProjectDetail({ project }: ProjectDetailProps) {
                 </motion.a>
               )}
               {project.githubUrl && (
-                <motion.a
-                  href={project.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <Button
-                    variant="outline"
-                    className="flex items-center gap-2 px-6 py-3 rounded-full border-2 hover:bg-primary hover:text-primary-foreground transition-all"
+                <div className="flex flex-col items-center gap-2">
+                  <motion.a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
                   >
-                    <Github size={16} />
-                    View Source
-                  </Button>
-                </motion.a>
+                    <Button
+                      variant="outline"
+                      className="flex items-center gap-2 px-6 py-3 rounded-full border-2 hover:bg-primary hover:text-primary-foreground transition-all"
+                    >
+                      <Github size={16} />
+                      View Source
+                    </Button>
+                  </motion.a>
+                  {project.isPrivateRepo && (
+                    <span className="text-xs text-muted-foreground">
+                      (Private Repository)
+                    </span>
+                  )}
+                </div>
               )}
             </div>
           </motion.div>

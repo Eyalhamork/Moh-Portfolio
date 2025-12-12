@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useEffect, useState } from "react";
+import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Code, Sparkles } from "lucide-react";
 import { useRouter, usePathname } from "next/navigation";
@@ -151,7 +151,6 @@ function EnhancedButton({
 
 export function HeroSection() {
   const ref = useRef<HTMLDivElement>(null);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const router = useRouter();
   const pathname = usePathname();
   const isHomePage = pathname === "/";
@@ -163,18 +162,6 @@ export function HeroSection() {
 
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
-
-  useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      setMousePosition({
-        x: (e.clientX - window.innerWidth / 2) / 100,
-        y: (e.clientY - window.innerHeight / 2) / 100,
-      });
-    };
-
-    window.addEventListener("mousemove", handleMouseMove);
-    return () => window.removeEventListener("mousemove", handleMouseMove);
-  }, []);
 
   const handleNavigation = (e: React.MouseEvent, targetId: string) => {
     e.preventDefault();

@@ -148,7 +148,7 @@
     ],
     "liveUrl": "https://pharmacy-platform-rho.vercel.app",
     "githubUrl": "https://github.com/Eyalhamork/pharmacy-platform",
-    "isPrivate": true,
+    "isPrivateRepo": true,
     "problem": "Liberian pharmacies lacked an accessible digital platform for selling medications online. Customers had limited access to essential medications, especially in remote areas, and pharmacies needed a solution that works with local payment methods while ensuring prescription verification for controlled substances and maintaining regulatory compliance.",
     "solution": "Developed a comprehensive pharmacy e-commerce platform with dual payment options (MTN Mobile Money + Cash on Delivery), prescription verification system, PWA capabilities for app-like experience, staff and admin dashboards for complete order management, and WhatsApp integration for real-time customer notifications. The platform is optimized for Liberia's low-bandwidth environment while maintaining security through Supabase Row Level Security.",
     "duration": "In Production",
@@ -289,6 +289,67 @@
       "Custom calculation algorithms",
       "Image optimization and compression",
       "Professional service descriptions"
+    ]
+  },
+  {
+    "id": "lib-merchant",
+    "title": "Lib Merchant",
+    "description": "Cloud-based retail management system transforming Liberian businesses from notebook-based operations to digital inventory and sales management.",
+    "fullDescription": "Lib Merchant is a comprehensive retail management platform specifically designed for Liberian small-to-medium businesses, including auto parts stores, provision shops, boutiques, and cosmetics stores. The system provides enterprise-grade inventory management, POS operations, customer credit tracking, and business analytics while supporting local payment methods (MTN MoMo, Orange Money, Cash). Built with offline-first architecture, it enables businesses to operate seamlessly even with unreliable internet connectivity, automatically syncing data when connection is restored.",
+    "image": "lib-merchant-cover.png",
+    "coverImages": {
+      "dark": "lib-merchant-cover.png",
+      "light": "lib-merchant-cover.png"
+    },
+    "gallery": [
+      "lib-merchant-1.png",
+      "lib-merchant-2.png",
+      "lib-merchant-3.png",
+      "lib-merchant-4.png",
+      "lib-merchant-5.png",
+      "lib-merchant-6.png"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Inventory Management",
+      "Next.js",
+      "PWA",
+      "Fintech",
+      "TypeScript",
+      "SaaS"
+    ],
+    "liveUrl": "https://lib-merchant.vercel.app/",
+    "githubUrl": "https://github.com/Eyalhamork/LIB-Merchant",
+    "isPrivateRepo": true,
+    "problem": "Liberian retail businesses rely heavily on manual notebook-based record-keeping, leading to inventory discrepancies, lost sales data, difficulty tracking customer credits, and limited business insights. These businesses face unique challenges including unreliable internet connectivity, need for local payment method support, and limited digital literacy among staff. Traditional inventory management systems are either too expensive, too complex, or not adapted to the local market's specific needs.",
+    "solution": "Lib Merchant digitizes retail operations through an intuitive, mobile-first interface that mirrors familiar notebook processes while adding powerful digital capabilities. The system offers offline PWA functionality for uninterrupted operations, role-based access for owners/supervisors/employees, automated inventory tracking with low-stock alerts, customer credit management with payment history, comprehensive cash session reconciliation, and detailed business analytics. The 30-day free trial with multi-step registration removes barriers to adoption, while the clean UI ensures minimal training requirements.",
+    "duration": "In Production",
+    "techStack": [
+      "Next.js 14",
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "Supabase",
+      "PostgreSQL",
+      "Zustand",
+      "Cloudinary",
+      "PWA",
+      "bcrypt"
+    ],
+    "features": [
+      "Multi-role authentication system (Owner, Supervisor, Employee)",
+      "Point-of-Sale with split payment support (Cash, MTN MoMo, Orange Money)",
+      "Real-time inventory management with stock tracking and low-stock alerts",
+      "Customer credit management with payment history and aging reports",
+      "Cash session management with opening/closing balancing",
+      "Returns and exchanges system with automatic inventory adjustment",
+      "Comprehensive transaction history with filtering and search",
+      "Business analytics and reports with CSV export",
+      "Employee management with activity tracking and audit trails",
+      "Offline-first PWA with automatic synchronization",
+      "Product image management via Cloudinary integration",
+      "Owner PIN verification for sensitive operations",
+      "30-day free trial with guided multi-step registration"
     ]
   }
 ]
